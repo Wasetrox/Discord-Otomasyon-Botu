@@ -1,0 +1,22 @@
+{
+  "name": "discord-otomasyon-botu",
+  "version": "1.0.0",
+  "description": "Ana ve yan sunucu otomasyonu için Discord botu.",
+  "main": "wasetrox.js",
+  "scripts": {
+    "start": "node src/wasetrox.js"
+  },
+  "author": "Wasetrox",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "@discordjs/rest": "^2.4.0",
+    "@discordjs/voice": "^0.18.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
